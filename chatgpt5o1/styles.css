@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* White background */
+}
+
+#gameCanvas {
+    border: 2px solid #000; /* Optional: Adds a border to the canvas */
+    background-color: #ffffff; /* Ensure the canvas has a white background */
+}

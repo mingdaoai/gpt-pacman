@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+#game-board {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    background-color: white;
+    overflow: hidden;
+}
+
+#dog {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transition: transform 0.1s ease;
+}
+
+.apple {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s ease;
+}
+
+.wall {
+    position: absolute;
+    background-color: black;
+}
+
+.smooth-hide {
+    opacity: 0;
+}
